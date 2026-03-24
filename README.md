@@ -19,6 +19,7 @@ The pipeline is divided into three core layers to ensure fault tolerance and sca
 1.  **Ingestion Layer (Apache Flume):** Acts as the high-availability collector. It gathers logs/event data from distributed sources and sinks them into the processing engine.
 2.  **Processing Layer (Apache Spark):** Uses Spark Streaming to partition data and perform real-time transformations and feature engineering across a cluster.
 3.  **Inference Layer (Attention-Augmented NN):** A deep learning model that incorporates an **Attention Layer** to weigh the importance of different time steps, significantly improving detection accuracy in complex patterns.
+<img width="2400" height="317" alt="diagram" src="https://github.com/user-attachments/assets/393850ff-4e7b-497a-a2e1-13376b6f3684" />
 
 ## 💼 Business Case Study: Financial Fraud Detection
 
@@ -68,3 +69,5 @@ The model was benchmarked against standard LSTM and Isolation Forest models usin
 Contributions are welcome\! Please open an issue or submit a pull request for any improvements in the neural network architecture or Spark optimization.
 
 -----
+
+
